@@ -4,4 +4,34 @@
     <string name="close_nav">Close Navigation Drawer</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="date">Pembungkus tipis di sekitar nilai milidetik yang memungkinkan JDBC mengidentifikasinya sebagai nilai TANGGAL SQL.
+        Nilai milidetik mewakili jumlah milidetik yang telah berlalu sejak 1 Januari 1970 00:00:00.000 GMT.
+        Untuk memenuhi definisi TANGGAL SQL, nilai milidetik yang dibungkus oleh instance java.sql.Date harus dinormalisasi dengan mengatur jam, menit, detik, dan milidetik menjadi nol di zona waktu yang terkait dengan instance tersebut.
+    </string>
+
+    <string name="rating">RatingBar adalah ekstensi dari SeekBar dan ProgressBar yang menampilkan penilaian dalam bentuk bintang.
+        Pengguna dapat menyentuh/menyeret atau menggunakan tombol panah untuk mengatur penilaian saat menggunakan ukuran default RatingBar.
+        Gaya RatingBar yang lebih kecil ( R.attr.ratingBarStyleSmall) dan gaya indikator-only yang lebih besar
+        (R.attr.ratingBarStyleIndicator) tidak mendukung interaksi pengguna dan hanya boleh digunakan sebagai indikator.
+        Saat menggunakan RatingBar yang mendukung interaksi pengguna, meletakkan widget di kiri atau kanan
+        RatingBar tidak disarankan.
+    </string>
+
+    <string name="edit">TextView menampilkan teks kepada pengguna dan secara opsional memungkinkan mereka untuk mengeditnya.
+        TextView adalah editor teks lengkap, namun kelas dasar dikonfigurasi untuk tidak mengizinkan pengeditan.
+    </string>
+
+    <string name="camera">Kerangka kerja Android mendukung berbagai kamera dan fitur kamera yang tersedia di perangkat, memungkinkan Anda untuk mengambil gambar dan video di aplikasi Anda.
+        Dokumen ini membahas pendekatan cepat dan sederhana untuk pengambilan gambar dan video serta menguraikan pendekatan lanjutan untuk menciptakan pengalaman kamera khusus bagi pengguna Anda.
+    </string>
+
+    <string name="recyclerview">RecyclerView adalah ViewGroup yang berisi tampilan yang sesuai dengan data Anda.
+        Ini adalah tampilan itu sendiri sehingga Anda dapat menambahkan RecyclerView ke dalam tata letak Anda seperti halnya Anda menambahkan elemen UI lainnya.
+        Setiap elemen individual dalam daftar didefinisikan oleh objek view holder.
+        RecyclerView adalah ViewGroup yang ditambahkan ke Android Studio sebagai penerus dari GridView dan ListView.
+        Ini merupakan peningkatan dari keduanya dan dapat ditemukan dalam paket dukungan v-7 terbaru.
+        RecyclerView dibuat untuk memungkinkan konstruksi daftar apa pun dengan tata letak XML sebagai item
+        yang dapat disesuaikan secara luas sambil meningkatkan efisiensi dari ListView dan GridView.
+    </string>
 </resources>

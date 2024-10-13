@@ -24,10 +24,15 @@
             </intent-filter>
         </activity>
 
-        <!-- MainActivity tetap ada untuk diakses setelah login -->
+        <!-- MainActivity -->
         <activity
             android:name=".MainActivity"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            android:exported="true" />
+
+        <!-- RecycleDetailActivity -->
+        <activity
+            android:name=".RecycleDetailActivity"
             android:exported="true" />
 
     </application>

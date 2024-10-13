@@ -36,13 +36,25 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     public boolean onNavigationItemSelected(@NonNull MenuItem item) {
         int id = item.getItemId();
         if (id == R.id.nav_home) {
-            getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new HomeFragment()).commit();
+            getSupportFragmentManager().beginTransaction()
+                    .replace(R.id.fragment_container, new HomeFragment())
+                    .addToBackStack(null)
+                    .commit();
         } else if (id == R.id.nav_calendar) {
-            getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new CalendarFragment()).commit();
+            getSupportFragmentManager().beginTransaction()
+                    .replace(R.id.fragment_container, new CalendarFragment())
+                    .addToBackStack(null)
+                    .commit();
         } else if (id == R.id.nav_notif) {
-            getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new NotifFragment()).commit();
+            getSupportFragmentManager().beginTransaction()
+                    .replace(R.id.fragment_container, new NotifFragment())
+                    .addToBackStack(null)
+                    .commit();
         } else if (id == R.id.nav_about) {
-            getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new AboutFragment()).commit();
+            getSupportFragmentManager().beginTransaction()
+                    .replace(R.id.fragment_container, new AboutFragment())
+                    .addToBackStack(null)
+                    .commit();
         } else if (id == R.id.nav_logout) {
             Toast.makeText(this, "Logout!", Toast.LENGTH_SHORT).show();
         }
